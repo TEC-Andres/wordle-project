@@ -2,7 +2,7 @@ from nltk.corpus import words
 
 class WordleCalc:
     def __init__(self):
-        self.lenWord = 11
+        self.lenWord = 5
         self.forbiden_letters= []
         self.letters_that_must_be_in_word = []
         self.word_list = [word.lower() for word in words.words() if len(word) == self.lenWord]
